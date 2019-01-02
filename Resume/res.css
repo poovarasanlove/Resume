@@ -1,0 +1,59 @@
+#img{
+background: url('asset/pic.jpg');
+background-size: 100%;
+padding: 50%;
+}
+#sidebar,#topbar{
+    background: orange;
+}
+@media(max-width:575px){
+    #sidebar{
+        display: none;
+    }
+}
+#topbar{
+    display: none;
+}
+@media(max-width:575px){
+    #topbar{
+        display: block;
+    }
+}
+@media(max-width:575px){
+#img{
+    height: 70px;
+    width: 70px;
+    padding: 0%;
+    border: 2px solid tomato;
+}
+}
+#name
+{
+    padding: 5px;
+font-size: 20px;
+    text-align: center;
+}
+@media(max-width:950px){
+    #name{
+        font-size: 15px ;
+    }
+}
+@media(max-width:750px){
+    #name{
+        font-size: 10px;
+    }
+}
+li{
+    text-align: center;
+border-radius: 5px;
+}
+@media(max-width:750px){
+    li{
+        font-size: 10px;
+    }
+}
+@media(max-width:575px){
+    li{
+        font-size: 20px;
+    }
+}
